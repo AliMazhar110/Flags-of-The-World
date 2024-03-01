@@ -1,0 +1,29 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+}
+img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.green{
+    background-color: green;
+    grid-row: span 2;
+}
+.white{
+    background-color: whitesmoke;
+    grid-row: span 2;
+}

@@ -1,0 +1,33 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+}
+.blue{
+    background-color: darkslateblue;
+    grid-row: span 2;
+}
+.yellow{
+    background-color: yellow;
+    grid-row: span 2;
+}
+.red{
+    background-color: red;
+    grid-row: span 2;
+}
+img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
