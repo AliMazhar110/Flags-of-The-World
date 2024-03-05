@@ -1,0 +1,19 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.red{
+    background-color: red;
+}
+.white{
+    border: 1px solid whitesmoke;
+}
