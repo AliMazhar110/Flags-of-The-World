@@ -1,0 +1,20 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: red;
+    position: relative;
+}
+.white{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: white;
+    clip-path: polygon(0% 0%, 70% 0%, 100% 10%, 70% 20%, 100% 30%, 70% 40%, 100% 50%, 70% 60%, 100% 70%, 70% 80%, 100% 90%, 70% 100%, 0% 100%);
+}
