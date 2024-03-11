@@ -1,0 +1,27 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    position: relative;
+}
+.blue{
+    background-color: royalblue;
+}
+.gold{
+    background-color:rgb(230, 210, 95);
+}
+img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-left: 175px;
+    margin-top: 70px;
+}
