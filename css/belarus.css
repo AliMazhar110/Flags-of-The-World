@@ -1,0 +1,28 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.1fr 0.9fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.stripe{
+    grid-row: span 3;
+}
+.red{
+    background-color: red;
+    grid-row: span 2;
+}
+.green{
+    background-color: green;
+}
+img{
+    height: 400px;
+    width: 60px;
+}
