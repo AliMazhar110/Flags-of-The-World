@@ -1,0 +1,33 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+    background-color:gold;
+}
+.orange{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    clip-path: polygon(100% 0%, 100% 100%, 0% 100%);
+    background-color: orangered;
+}
+img{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+}
