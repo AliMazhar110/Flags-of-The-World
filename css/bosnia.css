@@ -7,12 +7,20 @@ body{
 .container{
     width: 600px;
     height: 400px;
-    background-color:royalblue;
+    background-color:darkblue;
+    position: relative;
 }
 .triangle{
-    background-color: yellow;
+    background-color:gold;
     height: 400px;
-    width: 300px;
+    width: 400px;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
-    margin-left: 170px;
+    margin-left: 120px;
+    position: absolute;
+}
+.container > img{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: -40px;
 }
