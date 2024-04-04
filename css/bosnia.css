@@ -1,0 +1,18 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color:royalblue;
+}
+.triangle{
+    background-color: yellow;
+    height: 400px;
+    width: 300px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%);
+    margin-left: 170px;
+}
