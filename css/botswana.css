@@ -1,0 +1,25 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: deepskyblue;
+    display: flex;
+    align-items: center;
+}
+.mid{
+    background-color: white;
+    width: 600px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.black{
+    background-color: black;
+    width: 600px;
+    height: 50px;
+}
