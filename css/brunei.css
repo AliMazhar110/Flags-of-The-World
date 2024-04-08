@@ -1,0 +1,40 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.sub-container{
+    height: 300px;
+    width: 600px;
+    position: relative;
+}
+.white{
+    background-color: white;
+    height: 200px;
+    width: 600px;
+    clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 50%);
+    position: absolute;
+}
+.black{
+    background-color: black;
+    height: 200px;
+    width: 600px;
+    clip-path: polygon(0% 0%, 100% 50%, 100% 100%, 0% 50%);
+    position: absolute;
+    margin-top: 100px;
+}
+img{
+    width: 300px;
+    height: 280px;
+    position: absolute;
+}
