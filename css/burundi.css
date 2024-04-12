@@ -1,0 +1,83 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: grid;
+}
+.red-1{
+    position: absolute;
+    background-color: red;
+    width: 500px;
+    height: 180px;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    justify-self: center;
+}
+.green-1{
+    position: absolute;
+    background-color: green;
+    width: 250px;
+    height: 350px;
+    clip-path: polygon(0% 0%, 0% 100%, 100% 50%);
+    align-self: center;
+}
+.red-2{
+    position: absolute;
+    background-color: red;
+    width: 500px;
+    height: 180px;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    justify-self: center;
+    align-self: flex-end;
+}
+.green-2{
+    position: absolute;
+    background-color: green;
+    width: 250px;
+    height: 350px;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    justify-self: flex-end;
+    align-self: center;
+}
+.circle{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: white;
+    justify-self: center;
+    align-self: center;
+}
+.boundary{
+    position: absolute;
+    background-color: green;
+    width: 37px;
+    height: 47px;
+    padding-left: 8px;
+    padding-top: 7px;
+    clip-path: polygon(50% 0%, 65% 30%, 100% 25%, 80% 50%, 100% 75%, 65% 70%, 50% 100%, 35% 70%, 0% 75%, 20% 50%, 0% 25%, 35% 30%);
+
+}
+.star{
+    background-color: red;
+    width: 30px;
+    height: 40px;
+    clip-path: polygon(50% 0%, 65% 30%, 100% 25%, 80% 50%, 100% 75%, 65% 70%, 50% 100%, 35% 70%, 0% 75%, 20% 50%, 0% 25%, 35% 30%);
+}
+.bound-1{
+    margin-left: 53px;
+    margin-top: 10px;
+}
+.bound-2{
+    margin-left: 20px;
+    margin-top: 80px;
+}
+.bound-3{
+    margin-left: 85px;
+    margin-top: 80px;
+}
