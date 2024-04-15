@@ -1,0 +1,77 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    background-color: navy;
+    position: relative;
+}
+.white{
+    background-color: white;
+    width: 600px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    position: absolute;
+}
+.red{
+    background-color: red;
+    width: 600px;
+    height: 33px;
+}
+.stars{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.star{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+.star-0{
+    margin-top: 5px;
+}
+.star-1{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.star-2{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.star-3{
+    margin-top: 115px;
+    margin-left: 70px;
+}
+.star-4{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.star-5{
+    margin-top: 165px;
+}
+.star-6{
+    margin-top: 20px;
+    left: 60px;
+}
+.star-7{
+    margin-top: 50px;
+    left: 30px;
+}
+.star-8{
+    margin-top: 115px;
+    left: 30px;
+}
+.star-9{
+    margin-top: 150px;
+    left: 60px;
+}
