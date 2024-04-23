@@ -1,0 +1,47 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: red;
+    width: 600px;
+    height: 400px;
+}
+.stars{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.big-star{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.star{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+.star-1{
+    margin-left: 160px;
+    margin-top: 20px;
+    rotate: 20deg;
+}
+.star-2{
+    margin-left: 190px;
+    margin-top: 55px;
+    rotate: -20deg;
+}
+.star-3{
+    margin-left: 190px;
+    margin-top: 105px;
+}
+.star-4{
+    margin-left: 160px;
+    margin-top: 140px;
+    rotate: 20deg;
+}
