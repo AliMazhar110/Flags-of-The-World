@@ -15,6 +15,17 @@ body{
 .green{
     position: absolute;
     background-color: green;
+    width: 300px;
+    height: 400px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+img{
+    width: 150px;
+    height: 190px;
+    margin-left: 10px;
 }
 .yellow{
     background-color: gold;
