@@ -1,0 +1,31 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: royalblue;
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.strip{
+    background-color: gold;
+    width: 750px;
+    height: 100px;
+    position: absolute;
+    rotate: -30deg;
+    clip-path: polygon(7.7% 0%, 2% 74%, 5% 87%, 92.4% 100%, 98% 27%, 95% 14.3%);
+    
+}
+.red{
+    background-color: red;
+    width: 750px;
+    height: 60px;
+    margin-top: 20px;
+    rotate: 1deg;
+}
