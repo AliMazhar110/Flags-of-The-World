@@ -29,3 +29,11 @@ body{
     margin-top: 20px;
     rotate: 1deg;
 }
+img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    align-self: flex-start;
+    left: 50px;
+    top: 30px;
+}
