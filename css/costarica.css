@@ -1,0 +1,27 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+}
+.blue{
+    background-color: navy;
+    width: 600px;
+    height: 66.7px;
+}
+.blue-1{
+    margin-bottom: 66.7px;
+}
+.blue-2{
+    margin-top: 66.7px;
+}
+.red{
+    background-color: red;
+    width: 600px;
+    height: 133.2px;
+}
