@@ -21,3 +21,10 @@ body{
 .blue{
     background-color: darkblue;
 }
+img{
+    position: absolute;
+    width: 175px;
+    height: 250px;
+    margin-left: 212.5px;
+    margin-top: 55px;
+}
