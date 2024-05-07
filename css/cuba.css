@@ -25,3 +25,9 @@ body{
     width: 250px;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
 }
+img{
+    width: 100px;
+    height: 100px;
+    margin-top: 140px;
+    margin-left: 50px;
+}
