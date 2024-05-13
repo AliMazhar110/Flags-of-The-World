@@ -1,0 +1,48 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    display: flex;
+}
+.white{
+    background-color: white;
+    position: absolute;
+}
+.white-hor{
+    width: 600px;
+    height: 50px;
+    margin-top: 175px;
+}
+.white-ver{
+    height: 400px;
+    width: 50px;
+    margin-left: 275px;
+}
+.red{
+    background-color: red;
+    position: absolute;
+    width: 275px;
+    height: 175px;
+}
+.blue{
+    background-color: darkblue;
+    position: absolute;
+    width: 275px;
+    height: 175px;
+}
+.red-up{
+    margin-left: 325px;
+}
+.red-down{
+    align-self: flex-end;
+}
+.blue-down{
+    align-self: flex-end;
+    margin-left: 325px;
+}
