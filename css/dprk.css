@@ -17,4 +17,23 @@ body{
     background-color: red;
     border-top: 10px solid white;
     border-bottom: 10px solid white;
+    display: flex;
+    align-items: center;
+}
+.white{
+    background-color: white;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 100px;
+}
+.white > img{
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    margin-bottom: 10px;
 }
