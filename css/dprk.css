@@ -1,0 +1,20 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+}
+.red{
+    width: 600px;
+    height: 250px;
+    background-color: red;
+    border-top: 10px solid white;
+    border-bottom: 10px solid white;
+}
