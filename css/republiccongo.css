@@ -1,0 +1,27 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: gold;
+    position: relative;
+}
+.green{
+    height: 400px;
+    width: 400px;
+    background-color: green;
+    position: absolute;
+    clip-path: polygon(0% 0%, 100% 0%, 0% 100%);
+}
+.red{
+    height: 400px;
+    width: 400px;
+    background-color: red;
+    position: absolute;
+    clip-path: polygon(0% 100%, 100% 100%, 100% 0%);
+    right: 0px;
+}
