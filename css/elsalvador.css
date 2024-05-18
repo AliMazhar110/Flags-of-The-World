@@ -10,9 +10,17 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    position: relative;
 }
 .blue{
     width: 600px;
     height: 133.33px;
     background-color: rgb(0, 71, 171);
+}
+img{
+    position: absolute;
+    width: 133.33px;
+    height: 133.33px;
+    align-self: center;
+    margin-top: 133.33px;
 }
