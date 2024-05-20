@@ -1,0 +1,30 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+}
+.green{
+    background-color: green;
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    position: absolute;
+    background-color:royalblue;
+    height: 400px;
+    width: 150px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
