@@ -28,3 +28,10 @@ body{
     width: 150px;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
 }
+img{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    justify-self: center;
+    align-self: center;
+}
