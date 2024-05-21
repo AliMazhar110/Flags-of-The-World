@@ -1,0 +1,20 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    background-color: royalblue;
+}
+.red{
+    width: 600px;
+    height: 200px;
+    background-color: red;
+    border-top: 20px solid gold;
+    border-bottom: 20px solid gold;
+}
