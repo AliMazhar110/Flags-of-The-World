@@ -9,7 +9,7 @@ body{
     width: 600px;
     display: flex;
     align-items: center;
-    background-color: royalblue;
+    background-color: #3E5EB9;
 }
 .red{
     width: 600px;
@@ -17,4 +17,11 @@ body{
     background-color: red;
     border-top: 20px solid gold;
     border-bottom: 20px solid gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red > img{
+    width: 500px;
+    height: 300px;
 }
