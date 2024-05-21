@@ -1,0 +1,23 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightblue;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+}
+.blue{
+    background-color: royalblue;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
