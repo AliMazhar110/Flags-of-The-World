@@ -5,107 +5,43 @@ body{
     align-items: center;
 }
 .container{
-    width: 600px;
     height: 400px;
-    background-color:deepskyblue;
-    z-index: -3;
+    width: 600px;
+    background-color: deepskyblue;
     position: relative;
 }
 .small-container{
-    background-color: blue;
-    width: 300px;
     height: 200px;
+    width: 300px;
+    background-color: blue;
     position: relative;
-    z-index: -2;
 }
-.red1{
+.white-1{
     background-color: white;
-    height: 75px;
+    height: 200px;
     width: 50px;
     position: absolute;
     margin-left: 125px;
 }
-.red2{
+.white-2{
     background-color: white;
     height: 50px;
-    width: 135px;
+    width: 300px;
     position: absolute;
     margin-top: 75px;
 }
-.inner-red1{
+.red-1{
     background-color: red;
-    height: 100px;
+    height: 200px;
     width: 30px;
-    margin-left: 10px;
-}
-.inner-red2{
-    background-color: red;
-    height: 30px;
-    width: 150px;
-    margin-top: 10px;
-}
-.inner-red3{
-    background-color: red;
-    height: 100px;
-    width: 30px;
-    margin-left: 10px;
-}
-.inner-red4{
-    background-color: red;
-    height: 30px;
-    width: 150px;
-    margin-top: 10px;
-}
-.item1{
-    margin-top: 124px;
-    transform: rotate(180deg);
-}
-.item2{
-    margin-left: 165px;
-    transform: rotate(180deg);
-}
-.dia-red{
-    width: 160px;
-    height: 14px;
-    background-color: red;
     position: absolute;
-    z-index: -1;
+    margin-left: 135px;
 }
-.diag1{
-    border-top: 17px solid white;
-    border-bottom: 7px solid white;
-    transform: rotate(35deg);
-    margin-top: 40px;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 12% 100%, 5% 55%);
-    top: -20px;
-    left: -20px;
+.red-2{
+    background-color: red;
+    height: 30px;
+    width: 300px;
+    position: absolute;
+    margin-top: 85px;
 }
-.diag2{
-    border-top: 17px solid white;
-    border-bottom: 7px solid white;
-    transform: rotate(145deg);
-    margin-top: 40px;
-    clip-path: polygon(14% 0%, 100% 0%, 100% 100%, 24% 100%, 6% 45%);
-    top: -20px;
-    left: -20px;
-    margin-left: 180px;
-}
-.diag3{
-    border-top: 17px solid white;
-    border-bottom: 7px solid white;
-    transform: rotate(215deg);
-    margin-top: 165px;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 12% 100%, 5% 57%);
-    top: -22px;
-    left: -20px;
-    margin-left: 178px;
-}
-.diag4{
-    border-top: 17px solid white;
-    border-bottom: 7px solid white;
-    transform: rotate(-35deg);
-    margin-top: 165px;
-    clip-path: polygon(12% 0%, 100% 0%, 100% 100%, 26% 100%, 6% 40%);
-    top: -20px;
-    left: -20px;
-}
+
