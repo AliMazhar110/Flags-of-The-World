@@ -55,6 +55,14 @@ body{
     background-color: red;
     z-index: 0;
 }
+.dia-1{
+    transform: rotate(32deg);
+    margin-top: 30px;
+    left: -25px;
+    border-top: 15px solid white;
+    border-bottom: 8px solid white;
+    clip-path: polygon(16% 0%, 100% 0%, 100% 100%, 14% 100%, 4.9% 36%);
+}
 .dia-2{
     transform: rotate(143deg);
     margin-top: 20px;
@@ -64,12 +72,12 @@ body{
     clip-path: polygon(16% 0%, 100% 0%, 100% 100%, 28% 100%, 11% 34%);
 }
 .dia-3{
-    transform: rotate(220deg);
-    margin-top: 140px;
-    margin-left: 145px;
+    transform: rotate(210deg);
+    margin-top: 135px;
+    margin-left: 140px;
     border-top: 15px solid white;
     border-bottom: 8px solid white;
-    clip-path: polygon(25.1% 0%, 100% 0%, 100% 100%, 11% 100%, 7% 76%);
+    clip-path: polygon(14% 0%, 100% 0%, 100% 100%, 10.9% 100%, 3% 32%);
 }
 .dia-4{
     transform: rotate(-37deg);
