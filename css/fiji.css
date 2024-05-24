@@ -87,4 +87,11 @@ body{
     border-bottom: 8px solid white;
     clip-path: polygon(11% 0%, 100% 0%, 100% 100%, 24% 100%, 5.5% 36%);
 }
+.container > img{
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    margin-left: 375px;
+    top: 100px;
+}
 
