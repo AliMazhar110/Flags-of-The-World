@@ -1,0 +1,27 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightblue;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+}
+.strip-1{
+    height: 400px;
+    width: 100px;
+    background-color:darkblue;
+    position: absolute;
+    margin-left: 150px;
+}
+.strip-2{
+    width: 600px;
+    height: 100px;
+    background-color: darkblue;
+    position: absolute;
+    margin-top: 150px;
+}
