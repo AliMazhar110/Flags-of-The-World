@@ -26,3 +26,24 @@ body{
     position: absolute;
     justify-self: center;
 }
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.cross-1{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.cross-2{
+    margin-left: 420px;
+    margin-top: 30px;
+}
+.cross-3{
+    margin-left: 420px;
+    margin-top: 270px;
+}
+.cross-4{
+    margin-left: 80px;
+    margin-top: 270px;
+}
