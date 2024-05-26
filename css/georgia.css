@@ -1,0 +1,28 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: white;
+    position: relative;
+    display: grid;
+}
+.red-h{
+    background-color: red;
+    height: 80px;
+    width: 600px;
+    position: absolute;
+    align-self: center;
+}
+.red-v{
+    background-color: red;
+    height: 400px;
+    width: 80px;
+    position: absolute;
+    justify-self: center;
+}
