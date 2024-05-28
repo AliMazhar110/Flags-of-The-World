@@ -10,6 +10,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
 }
 .red{
     background-color: red;
@@ -19,4 +20,11 @@ body{
 }
 .green{
     background-color: darkgreen;
+}
+img{
+    position: absolute;
+    width: 133px;
+    height: 133px;
+    justify-self: center;
+    align-self: center;
 }
