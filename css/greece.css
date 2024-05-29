@@ -8,11 +8,12 @@ body{
     height: 400px;
     width: 600px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    background-color: white;
 }
 .blue{
     width: 600px;
     height: 50px;
-    background-color:navy;
+    background-color: #0D5EAF;
 }
