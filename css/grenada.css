@@ -19,6 +19,7 @@ body{
     width: 500px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 .tri-1{
     background-color: #007A5E;
@@ -31,4 +32,13 @@ body{
     height: 300px;
     width: 250px;
     clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+}
+.red-circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    align-self: center;
+    margin-left: 200px;
 }
