@@ -46,3 +46,13 @@ body{
     height: 90px;
     width: 100px;
 }
+.stars-1{
+    height: 50px;
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.stars-1 > img{
+    height: 50px;
+    width: 50px;
+}
