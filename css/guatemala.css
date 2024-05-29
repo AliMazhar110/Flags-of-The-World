@@ -10,10 +10,18 @@ body{
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
 }
 .blue{
     background-color: #4997D0;
 }
 .white{
     background-color: white;
+}
+img{
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
 }
