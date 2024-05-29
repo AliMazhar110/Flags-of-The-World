@@ -26,6 +26,11 @@ body{
     height: 300px;
     width: 250px;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    display: flex;
+    align-items: center;
+}
+.tri-1 > img{
+    margin-left: 20px;
 }
 .tri-2{
     background-color: #007A5E;;
