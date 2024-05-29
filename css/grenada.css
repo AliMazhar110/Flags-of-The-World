@@ -42,3 +42,7 @@ body{
     align-self: center;
     margin-left: 200px;
 }
+.red-circle > img{
+    height: 90px;
+    width: 100px;
+}
