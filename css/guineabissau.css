@@ -14,6 +14,13 @@ body{
 .red{
     background-color: red;
     grid-row: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    height: 100px;
 }
 .yellow{
     background-color: gold;
