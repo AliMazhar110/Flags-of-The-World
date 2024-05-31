@@ -1,0 +1,26 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    background-color: green;
+}
+.tri-yellow{
+    background-color: gold;
+    height: 400px;
+    width: 600px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    position: absolute;
+}
+.tri-red{
+    background-color: red;
+    height: 400px;
+    width: 300px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    position: absolute;
+}
