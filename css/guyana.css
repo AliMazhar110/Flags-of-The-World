@@ -10,17 +10,35 @@ body{
     position: relative;
     background-color: green;
 }
-.tri-yellow{
-    background-color: gold;
+.tri-white{
+    background-color: white;
     height: 400px;
     width: 600px;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
     position: absolute;
+    display: flex;
+    align-items: center;
+}
+.tri-yellow{
+    background-color: gold;
+    height: 370px;
+    width: 570px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    position: absolute;
+}
+.tri-black{
+    background-color: black;
+    height: 400px;
+    width: 300px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    position: absolute;
+    display: flex;
+    align-items: center;
 }
 .tri-red{
     background-color: red;
-    height: 400px;
-    width: 300px;
+    height: 375px;
+    width: 275px;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
     position: absolute;
 }
