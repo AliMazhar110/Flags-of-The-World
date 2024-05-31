@@ -22,7 +22,7 @@ body{
 .tri-yellow{
     background-color: gold;
     height: 370px;
-    width: 570px;
+    width: 560px;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
     position: absolute;
 }
