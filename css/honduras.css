@@ -16,4 +16,18 @@ body{
 }
 .white{
     background-color: white;
+    display: flex;
+    justify-content: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+.emblem{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.stars{
+    
 }
