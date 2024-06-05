@@ -9,7 +9,7 @@ body{
     width: 600px;
     display: grid;
     position: relative;
-    background-color: blue;
+    background-color: #02529C;
 }
 .white-h{
     height: 70px;
@@ -28,7 +28,7 @@ body{
     margin-left: 170px;
 }
 .red-h{
-    height: 40px;
+    height: 35px;
     width: 600px;
     background-color: red;
     position: absolute;
@@ -37,9 +37,9 @@ body{
 }
 .red-v{
     height: 400px;
-    width: 40px;
+    width: 35px;
     background-color: red;
     position: absolute;
-    margin-left: 185px;
+    margin-left: 187.5px;
     z-index: 1;
 }
