@@ -26,8 +26,6 @@ body{
     background-color: white;
     position: absolute;
     margin-left: 170px;
-    display: grid;
-    z-index: 0;
 }
 .red-h{
     height: 40px;
@@ -35,11 +33,13 @@ body{
     background-color: red;
     position: absolute;
     align-self: center;
+    z-index: 1;
 }
 .red-v{
     height: 400px;
     width: 40px;
     background-color: red;
     position: absolute;
-    justify-self: center;
+    margin-left: 185px;
+    z-index: 1;
 }
