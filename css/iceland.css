@@ -1,0 +1,27 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    position: relative;
+    background-color: blue;
+}
+.white-h{
+    height: 70px;
+    width: 600px;
+    background-color: white;
+    position: absolute;
+    align-self: center;
+}
+.white-v{
+    height: 400px;
+    width: 70px;
+    background-color: white;
+    position: absolute;
+    margin-left: 170px;
+}
