@@ -4,3 +4,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
