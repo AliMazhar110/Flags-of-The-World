@@ -12,11 +12,16 @@ body{
     grid-template-rows: 1fr 1fr 1fr;
 }
 .green{
-    background-color: green;
+    background-color: #239F40;
+    display: flex;
+    align-items: end;
 }
 .white{
     background-color: white;
 }
 .red{
     background-color: red;
+}
+img{
+    width: 600px;
 }
