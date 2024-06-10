@@ -26,3 +26,10 @@ body{
 .strips{
     width: 600px;
 }
+.emblem{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    justify-self: center;
+    align-self: center;
+}
