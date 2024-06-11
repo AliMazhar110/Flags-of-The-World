@@ -7,4 +7,15 @@ body{
 .container{
     height: 400px;
     width: 600px;
+    position: relative;
+    display: grid;
+}
+.blue-strip{
+    background-color: #005EB8;
+    height: 60px;
+    width: 600px;
+    position: absolute;
+}
+.blue{
+    
 }
