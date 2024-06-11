@@ -16,9 +16,25 @@ body{
     width: 600px;
     position: absolute;
 }
-.blue{
+.blue-1{
     background-color: #005EB8;
     width: 200px;
-    height: 200px;
-    clip-path: polygon();
+    height: 150px;
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 50px;
+    display: flex;
+}
+.blue-2{
+    background-color: #005EB8;
+    width: 200px;
+    height: 150px;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+    margin-top: 50px;
+    display: flex;
 }
