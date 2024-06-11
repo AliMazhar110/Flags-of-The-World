@@ -17,5 +17,8 @@ body{
     position: absolute;
 }
 .blue{
-    
+    background-color: #005EB8;
+    width: 200px;
+    height: 200px;
+    clip-path: polygon();
 }
