@@ -26,6 +26,8 @@ body{
     align-self: center;
     margin-bottom: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .blue-2{
     background-color: #005EB8;
@@ -37,7 +39,18 @@ body{
     align-self: center;
     margin-top: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.white{
-    
+.white-1{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    clip-path: polygon(50% 20%, 85% 90%, 15% 90%);
+}
+.white-2{
+    background-color: white;
+    width: 200px;
+    height: 150px;
+    clip-path: polygon(15% 10%, 85% 10%, 50% 80%);
 }
