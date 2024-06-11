@@ -21,3 +21,10 @@ body{
 .black{
     background-color: black;
 }
+img{
+    height: 110px;
+    width: 300px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+}
