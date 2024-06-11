@@ -1,0 +1,23 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.green{
+    background-color: #009A44;
+}
+.white{
+    background-color: white;
+}
+.orange{
+    background-color: orange;
+}
