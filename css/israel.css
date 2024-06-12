@@ -3,16 +3,33 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: black;
 }
 .container{
     height: 400px;
     width: 600px;
     position: relative;
-    display: grid;
+    display: flex;
+    justify-content: center;
+    background-color: white;
 }
 .blue-strip{
     background-color: #005EB8;
     height: 60px;
     width: 600px;
     position: absolute;
+}
+.strip-1{
+    align-self: flex-start;
+    margin-top: 50px;
+}
+.strip-2{
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+img{
+    width: 150px;
+    height: 160px;
+    position: absolute;
+    align-self: center;
 }
