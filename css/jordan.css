@@ -21,3 +21,10 @@ body{
 .green{
     background-color: green;
 }
+.tri-red{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+}
