@@ -27,4 +27,11 @@ body{
     height: 400px;
     background-color: red;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 50px;
+    height: 45px;
+    margin-left: 70px;
 }
