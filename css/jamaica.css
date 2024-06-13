@@ -8,6 +8,23 @@ body{
     height: 400px;
     width: 600px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: darkgreen;
+    position: relative;
+}
+.tri-yellow-1{
+    width: 340px;
+    height: 400.3px;
+    position: absolute;
+    background-color: gold;
+    clip-path: polygon(0% 0%, 20% 0%, 100% 50%, 20% 100%, 0% 100%);
+    align-self: flex-start;
+}
+.tri-yellow-2{
+    width: 340px;
+    height: 400.3px;
+    position: absolute;
+    background-color: gold;
+    clip-path: polygon(100% 0%, 80% 0%, 0% 50%, 80% 100%, 100% 100%);
+    align-self: flex-end;
 }
