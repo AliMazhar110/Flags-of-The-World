@@ -9,5 +9,20 @@ body{
     width: 600px;
     display: flex;
     position: relative;
-    background-color: #00AFCA;
+    background-color: #00ABC4;
+    flex-direction: column;
+    justify-content: center;
+}
+.strip{
+    position: absolute;
+    height: 350px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+.emblem{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    align-self:center;
+    margin-left: 50px;
 }
