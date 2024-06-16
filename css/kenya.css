@@ -1,0 +1,25 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.15fr 1fr 0.15fr 1fr;
+}
+.black{
+    background-color: black;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: darkgreen;
+}
+.white{
+    background-color: white;
+}
