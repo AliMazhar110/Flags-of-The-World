@@ -25,9 +25,10 @@ body{
     background-color: white;
 }
 img{
-    height: 250px;
-    width: 150px;
+    height: 270px;
+    width: 160px;
     position: absolute;
     justify-self: center;
     align-self: center;
+    margin-bottom: 15px;
 }
