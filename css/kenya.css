@@ -8,6 +8,7 @@ body{
     height: 400px;
     width: 600px;
     display: grid;
+    position: relative;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 0.15fr 1fr 0.15fr 1fr;
 }
@@ -15,11 +16,18 @@ body{
     background-color: black;
 }
 .red{
-    background-color: red;
+    background-color: #BB0000;
 }
 .green{
     background-color: darkgreen;
 }
 .white{
     background-color: white;
+}
+img{
+    height: 250px;
+    width: 150px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
 }
