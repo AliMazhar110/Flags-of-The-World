@@ -10,6 +10,7 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
 }
 .green{
     background-color: green;
@@ -19,4 +20,11 @@ body{
 }
 .red{
     background-color: red;
+}
+.black{
+    background-color: black;
+    position: absolute;
+    height: 400px;
+    width: 150px;
+    clip-path: polygon(0% 0%, 100% 33%, 100% 67%, 0% 100%);
 }
