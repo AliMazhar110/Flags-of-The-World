@@ -9,4 +9,11 @@ body{
     width: 600px;
     background-color: #FF0000;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 250px;
+    height: 250px;
 }
