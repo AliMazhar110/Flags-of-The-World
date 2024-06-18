@@ -9,5 +9,9 @@ body{
     width: 600px;
     display: flex;
     align-items: flex-end;
-    background-color: #FF0000;
+    background-color: #c60b20;
+}
+img{
+    width: 600px;
+    height: 300px;
 }
