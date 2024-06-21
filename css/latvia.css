@@ -12,5 +12,7 @@ body{
     align-items: center;
 }
 .white{
-    
+    height: 100px;
+    width: 600px;
+    background-color: white;
 }
