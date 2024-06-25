@@ -23,4 +23,7 @@ body{
     height: 182px;
     width: 182px;
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
