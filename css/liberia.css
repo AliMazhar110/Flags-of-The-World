@@ -18,3 +18,9 @@ body{
     width: 600px;
     height: 37px;
 }
+.blue{
+    background-color: darkblue;
+    height: 182px;
+    width: 182px;
+    position: absolute;
+}
