@@ -27,3 +27,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+img{
+    height: 120px;
+    width: 120px;
+}
