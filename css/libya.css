@@ -21,3 +21,10 @@ body{
 .green{
     background-color: green;
 }
+img{
+    width: 170px;
+    height: 120px;
+    position: absolute;
+    justify-self: center;
+    align-self: center;
+}
