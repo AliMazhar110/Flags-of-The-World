@@ -18,3 +18,10 @@ body{
 .red{
     background-color: red;
 }
+img{
+    position: absolute;
+    height: 110px;
+    width: 120px;
+    margin-top: 45px;
+    margin-left: 100px;
+}
