@@ -10,10 +10,13 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    position: relative;
 }
 .black{
     background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .red{
     background-color: #C8102E;
@@ -23,8 +26,6 @@ body{
 }
 img{
     position: absolute;
-    width: 100px;
-    height: 100px;
-    justify-self: center;
-    margin: ;
+    width: 270px;
+    height: 110px;
 }
