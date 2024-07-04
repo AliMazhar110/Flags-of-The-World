@@ -20,3 +20,7 @@ body{
     align-items: center;
     background-color: green;
 }
+img{
+    height: 150px;
+    width: 120px;
+}
