@@ -19,3 +19,10 @@ body{
 .red{
     background-color: red;
 }
+img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
