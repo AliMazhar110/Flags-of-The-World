@@ -1,0 +1,24 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: #003087;
+}
+.tri{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.orange{
+    background-color: #E57200;
+}
+.white{
+    background-color: white;
+}
