@@ -12,7 +12,15 @@ body{
 }
 .orange{
     background-color: #E57200;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    clip-path: polygon(0% 94%, 100% 0%, 100% 20%, 0% 96%);
 }
 .white{
     background-color: white;
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    clip-path: polygon(0% 96%, 100% 20%, 100% 40%, 0% 98%);
 }
