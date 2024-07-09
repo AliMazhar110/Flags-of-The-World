@@ -8,13 +8,7 @@ body{
     height: 400px;
     width: 600px;
     background-color: #003087;
-}
-.tri{
-    height: 400px;
-    width: 600px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    position: relative;
 }
 .orange{
     background-color: #E57200;
