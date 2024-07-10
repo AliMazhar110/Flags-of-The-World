@@ -1,0 +1,20 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    background-color: #D01C1F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.green{
+    height: 230px;
+    width: 600px;
+    background-color: #00A95C;
+}
