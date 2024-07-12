@@ -1,0 +1,23 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+.green{
+    background-color: #006341;
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: #C8102E;
+}
