@@ -1,0 +1,33 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    background-color: #75B2DD;
+}
+img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+}
+.top{
+    margin-left: 275px;
+    margin-top: 50px;
+}
+.left{
+    margin-left: 150px;
+    margin-top: 175px;
+}
+.right{
+    margin-left: 400px;
+    margin-top: 175px;
+}
+.bottom{
+    margin-left: 275px;
+    margin-top: 300px;
+}
