@@ -22,12 +22,15 @@ img{
 .left{
     margin-left: 150px;
     margin-top: 165px;
+    transform: rotate(-20deg);
 }
 .right{
     margin-left: 380px;
     margin-top: 165px;
+    transform: rotate(20deg);
 }
 .bottom{
     margin-left: 265px;
     margin-top: 280px;
+    transform: rotate(180deg);
 }
