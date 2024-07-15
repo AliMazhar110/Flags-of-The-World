@@ -21,3 +21,10 @@ body{
 .red{
     background-color: #C8102E;
 }
+img{
+    height: 200px;
+    width: 150px;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+}
