@@ -13,7 +13,7 @@ body{
     grid-template-rows: 1fr 1fr;
 }
 .red{
-    background-color: red;
+    background-color: #CE1126;
 }
 .white{
     background-color: white;
