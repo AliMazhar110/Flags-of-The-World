@@ -1,0 +1,18 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    background-color: #DA2032;
+}
+.blue{
+    height: 400px;
+    width: 200px;
+    background-color: #0066B3;
+}
