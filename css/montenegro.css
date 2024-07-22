@@ -16,4 +16,7 @@ body{
     height: 370px;
     width: 570px;
     background-color: #c40308;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
