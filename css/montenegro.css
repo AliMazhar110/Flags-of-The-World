@@ -20,3 +20,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+img{
+    height: 250px;
+    width: 200px;
+}
