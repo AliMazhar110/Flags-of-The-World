@@ -10,5 +10,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: #C1272D;
+}
+img{
+    height: 120px;
+    width: 120px;
 }
