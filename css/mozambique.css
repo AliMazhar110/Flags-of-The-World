@@ -24,3 +24,10 @@ body{
 .yellow{
     background-color: #FCE100;
 }
+.red-tri{
+    background-color: #D21034;
+    height: 400px;
+    width: 250px;
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
+    position: absolute;
+}
