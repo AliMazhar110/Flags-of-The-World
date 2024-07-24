@@ -30,4 +30,12 @@ body{
     width: 250px;
     clip-path: polygon(0% 0%, 100% 50%, 0% 100%);
     position: absolute;
+    display: flex;
+    align-items: center;
+}
+img{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    margin-left: 10px;
 }
