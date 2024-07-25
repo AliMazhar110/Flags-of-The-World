@@ -13,11 +13,11 @@ body{
     position: relative;
 }
 .yellow{
-    background-color: gold;
+    background-color: #FFCD00;
 }
 .green{
-    background-color: green;
+    background-color: #43B02A;
 }
 .red{
-    background-color: red;
+    background-color: #EE2737;
 }
