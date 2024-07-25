@@ -5,5 +5,19 @@ body{
     align-items: center;
 }
 .container{
-    
+    height: 400px;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    position: relative;
+}
+.yellow{
+    background-color: gold;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
 }
