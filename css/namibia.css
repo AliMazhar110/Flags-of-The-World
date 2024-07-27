@@ -8,7 +8,7 @@ body{
     height: 400px;
     width: 600px;
     position: relative;
-    background-color: orange;
+    background-color: white;
     display: flex;
 }
 .blue{
@@ -34,5 +34,5 @@ body{
     transform: rotate(-35deg);
     margin-top: 110px;
     left: -70px;
-    clip-path: polygon(4.15% 20%, 0.45% 47%, 10.2% 82%, 90.4% 85%, 94% 58.3%, 84.5% 24%);
+    clip-path: polygon(4.15% 20%, 0.45% 47%, 10.2% 82%, 90.4% 85%, 94% 58.3%, 84% 22%);
 }
