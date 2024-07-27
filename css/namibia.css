@@ -15,14 +15,14 @@ body{
     height: 330px;
     width: 600px;
     position: absolute;
-    background-color: navy;
+    background-color: #001489;
     clip-path: polygon(0% 0%, 0% 100%, 80% 0%);
 }
 .green{
     height: 330px;
     width: 600px;
     position: absolute;
-    background-color: green;
+    background-color: #009A44;
     align-self: flex-end;
     clip-path: polygon(100% 0%, 100% 100%, 20% 100%);
 }
@@ -30,7 +30,7 @@ body{
     height: 150px;
     width: 770px;
     position: absolute;
-    background-color: red;
+    background-color: #DA291C;
     transform: rotate(-35deg);
     margin-top: 110px;
     left: -70px;
