@@ -38,6 +38,8 @@ body{
 }
 img{
     width: 150px;
-    height: 130px;
+    height: 150px;
     position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
 }
