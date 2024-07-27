@@ -36,3 +36,8 @@ body{
     left: -70px;
     clip-path: polygon(4.15% 20%, 0.45% 47%, 10.2% 82%, 90.4% 85%, 94% 58.3%, 84% 22%);
 }
+img{
+    width: 150px;
+    height: 130px;
+    position: absolute;
+}
