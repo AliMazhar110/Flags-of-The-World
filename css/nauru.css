@@ -1,0 +1,19 @@
+body{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #012196;
+}
+.yellow{
+    height: 30px;
+    width: 600px;
+    background-color: #FFC72C;
+}
