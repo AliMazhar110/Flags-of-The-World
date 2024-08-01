@@ -17,3 +17,10 @@ body{
     width: 600px;
     background-color: #FFC72C;
 }
+img{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 100px;
+}
