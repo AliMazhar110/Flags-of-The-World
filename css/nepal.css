@@ -15,4 +15,8 @@ body{
     width: 500px;
     background-color: red;
     clip-path: polygon(3% 5%, 85% 42%, 21% 41.5%, 90% 96.5%, 3% 96.5%);
+    position: relative;
+}
+img{
+    position: absolute;
 }
