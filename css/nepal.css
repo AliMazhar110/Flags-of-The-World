@@ -17,6 +17,12 @@ body{
     clip-path: polygon(3% 5%, 85% 42%, 21% 41.5%, 90% 96.5%, 3% 96.5%);
     position: relative;
 }
-img{
+.moon{
     position: absolute;
+    height: 100px;
+    width: 100px;
+}
+.sun{
+    height: 100px;
+    width: 100px;
 }
