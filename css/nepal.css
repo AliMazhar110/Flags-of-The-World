@@ -9,20 +9,26 @@ body{
     width: 500px;
     background-color: darkblue;
     clip-path: polygon(0% 0%, 100% 45%, 30% 45%, 100% 100%, 0% 100%);
+    position: relative;
 }
 .red{
     height: 400px;
     width: 500px;
     background-color: red;
     clip-path: polygon(3% 5%, 85% 42%, 21% 41.5%, 90% 96.5%, 3% 96.5%);
-    position: relative;
+    position: absolute;
 }
 .moon{
     position: absolute;
     height: 100px;
-    width: 100px;
+    width: 150px;
+    margin-top: 70px;
+    margin-left: 20px;
 }
 .sun{
-    height: 100px;
-    width: 100px;
+    position: absolute;
+    height: 140px;
+    width: 140px;
+    margin-top: 220px;
+    margin-left: 25px;
 }
