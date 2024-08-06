@@ -11,3 +11,12 @@ body{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+.red{
+    background-color: #AE1C28;
+}
+.white{
+    background-color: white;
+}
+.blue{
+    background-color: #21468B;
+}
