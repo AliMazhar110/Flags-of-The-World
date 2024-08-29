@@ -9,6 +9,7 @@ body{
     height: 400px;
     width: 600px;
     position: relative;
+    z-index: -2;
 }
 .small-container{
     height: 200px;
@@ -17,6 +18,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: -1 !important;
 }
 .white-h{
     background-color: white;
@@ -43,18 +46,34 @@ body{
     position: absolute;
 }
 .diagonal{
-    height: 50px;
-    width: 150px;
+    height: 40px;
+    width: 200px;
     background-color: white;
-    z-index: 2;
     position: absolute;
 }
 .diagonal .red-d{
     background-color: red;
-    height: 20px;
-    width: 150px;
-    margin-top: 10px;
+    height: 13px;
+    width: 200px;
+    margin-top: 20px;
 }
 .d-1{
-    
+    transform: rotate(35deg);
+    left: -30px;
+    top: 30px;
+    z-index: -1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 14% 100%, 7% 50%);
+}
+.d-2{
+    transform: rotate(-36deg);
+    left: -34px;
+    bottom: 28px;
+    z-index: -1;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 23% 100%, 8% 45.5%);
+}
+.d-3{
+    z-index: -3;
+}
+.d-4{
+    z-index: -3;
 }
