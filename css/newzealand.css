@@ -42,3 +42,19 @@ body{
     width: 30px;
     position: absolute;
 }
+.diagonal{
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+}
+.diagonal .red-d{
+    background-color: red;
+    height: 20px;
+    width: 150px;
+    margin-top: 10px;
+}
+.d-1{
+    
+}
