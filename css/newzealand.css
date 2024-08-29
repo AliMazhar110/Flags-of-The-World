@@ -13,5 +13,32 @@ body{
 .small-container{
     height: 200px;
     width: 300px;
-    background-color: yellow;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-h{
+    background-color: white;
+    height: 50px;
+    width: 300px;
+    position: absolute;
+}
+.white-v{
+    background-color: white;
+    height: 200px;
+    width: 50px;
+    position: absolute;
+}
+.red-h{
+    background-color: red;
+    height: 30px;
+    width: 300px;
+    position: absolute;
+}
+.red-v{
+    background-color: red;
+    height: 200px;
+    width: 30px;
+    position: absolute;
 }
